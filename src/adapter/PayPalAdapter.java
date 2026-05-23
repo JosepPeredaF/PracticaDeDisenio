@@ -9,6 +9,6 @@ public class PayPalAdapter implements  PaymentProcessor{
 
     @Override
     public void pay(double amount) {
-        payPalService.makePayment("PEN", amount);
+        //payPalService.makePayment("PEN", amount);
     }
 }
